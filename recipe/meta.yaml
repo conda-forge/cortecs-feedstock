@@ -1,5 +1,7 @@
 {% set name = "cortecs" %}
+
 {% set version = "1.0.1" %}
+
 
 
 package:
@@ -9,6 +11,7 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cortecs-{{ version }}.tar.gz
   sha256: c7bac8da06dede51b8f140163ab6dceeb6e1dfb10a14bc9d9af7ed59827706bd
+
 
 build:
   noarch: python
