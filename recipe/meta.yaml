@@ -42,7 +42,7 @@ test:
   commands:
     - pip check
   requires:
-    - pip
+    - pip <=24.0
 
 about:
   home: https://github.com/arjunsavel/cortecs
