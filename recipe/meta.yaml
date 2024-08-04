@@ -24,7 +24,7 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - python >=3.9,<3.12
-    - pip
+    - pip <=24.0
   run:
     - python >=3.9,<3.12
     - numpy
